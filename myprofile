@@ -4,7 +4,7 @@
  <head>
   <h1>首頁</h1>
   <style>
-    body{width:100%;min-width:600px;max-width:960px;margin:0auto;text-align:center;}
+    body{width:100%;min-width:2400px;max-width2400px;margin:0auto;text-align:center;}
     header{margin:1%;background:#FFFAF2;}
     nav{margin:1%; color:white ;background:#FFFAF2;}
     main{float:left;width:64%;height:300px;margin:1%;background:#FFFAF2;}
@@ -22,9 +22,8 @@
   
 
   <footer>
-   <p><small>某人版權所有</small></p>
+   <p><small>紀柔版權所有</small></p>
  </footer>
- 
- </body>
+  </body>
  
 </html>
