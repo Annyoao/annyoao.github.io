@@ -6,13 +6,13 @@
 
 <form>
   <form action="/confirm">
-  <p> 用英文字母大寫輸入您的性</p>
+  <p> 用英文字母大寫輸入您的姓氏</p>
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" ><br>
+  <input type="text" id="fname" name="fname" onkeyup="value=value.replace(/[A-Z]/g,’’)"> ><br>
 
-  <p> 用英文字母小寫輸入您的性</p> 
+  <p> 用英文字母小寫輸入您的名字</p> 
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" >
+  <input type="text" id="lname" name="lname" onkeyup="value=value.replace(/[a-z]/g,’’)"> 
     
   <br><input type="submit" value="提交"> 
   <input type="reset" value="重新輸入"> 
