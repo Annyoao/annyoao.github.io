@@ -7,8 +7,27 @@ Chapter-13
 .header{
 padding:170px 30px 80px;
 }
+.heading{
+position:relative;
+display: inline-block;
+margin:30px 0 15px;
+padding-bottom:15px;
+letter-spacing:2px;
+font-size:4rem;
+}
+heading::before{
+bottom:5px;
+}
+.heading::after {
+content: "; 
+position: absolute;
+right: 0; 
+bottom: 0; 
+left: 0; 
+border-bottom: 1px solid #999;
+}
 .site-title{
-margin:50px 0 40px
+margin:50px 0 40px;
 font-size:7.6rem;
 }
 .site-title-sub { 
@@ -40,7 +59,12 @@ opacity: 0.9;
 background-color:#1b400;
 }
 .buttons.button{
-margin;10px
+margin:10px;
+}
+.about{
+padding:80px 30px;
+background-color:#fff;
+color:#333;
 }
 
 body {
