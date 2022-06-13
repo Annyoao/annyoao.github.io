@@ -39,6 +39,9 @@ opacity: 0.9;
 .button-showy{
 background-color:#1b400;
 }
+.buttons.button{
+margin;10px
+}
 
 body {
 background: #151515 url('../images/bg.png') no-repeat fixed left bottom; 
