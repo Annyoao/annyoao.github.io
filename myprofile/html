@@ -2,9 +2,12 @@
 < html lang = "zh-Hant-TW" >
 < head >
 < meta charset = "UTF-8" >
-< title > Single Page Layout</title>
-< link rel = "stylesheet" href= "css/normalize.css" >
-< link rel= "stylesheet" href= "css/style.css" >
+< title > 李紀柔的作品集</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+< link rel = "stylesheet" href= "myprofile/normalize.css" >
+< link rel= "stylesheet" href= "myprofile/style.css" >
 </ head > 
  
 <body>
