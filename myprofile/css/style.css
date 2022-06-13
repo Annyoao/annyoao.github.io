@@ -25,6 +25,11 @@ margin: 0 30px;
 background-color: #fff; 
 vertical-align: middle;
 }
+.site-description{
+margin-bottom:50px;
+color:#888
+font-size:1.6rem;
+}
 
 body {
 background: #151515 url('../images/bg.png') no-repeat fixed left bottom; 
