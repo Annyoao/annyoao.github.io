@@ -66,7 +66,10 @@ padding:80px 30px;
 background-color:#fff;
 color:#333;
 }
-
+.about-text{
+margin:30px 0;
+line-height:2.5;
+}
 body {
 background: #151515 url('../images/bg.png') no-repeat fixed left bottom; 
 background-size: cover; 
