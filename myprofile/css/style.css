@@ -36,6 +36,9 @@ display: inline-block; width: 200px; padding: 20px; border-radius: 4px; backgrou
 .button:hover { 
 opacity: 0.9;
 ｝
+.button-showy{
+background-color:#1b400;
+}
 
 body {
 background: #151515 url('../images/bg.png') no-repeat fixed left bottom; 
