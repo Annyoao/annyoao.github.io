@@ -19,8 +19,10 @@ body {
         background:#800000;
         display: flex;
         justify-content: center;
-        justify-content: space-between;
-        margin:1px;
+       justify-content: space-evenly
+    }
+    ul{
+        margin:5px;
     }
     a {
         color:white;
