@@ -33,20 +33,31 @@ body {
     } 
     main{
         float:left;
-        width:64%;
-        height:600px;
-        margin:1%;
+        width:95%;
+        margin:2%;
         background:#fffaf0;}
     .h1-div{
         border-bottom: 5px double #999;
         display: inline-block;
         padding-bottom:1PX;
     }
-    .imf-div{
-        color:#800000 ;
-        margin:10px 50px ;
-        text-align:left;
+    .flex-container {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        align-items: center ;
+        background:#fffaf0;
+        justify-content: center;
+    }
+        .pho1-div{
+        margin:30px 20px ;
+        justify-content: center;
         }
+        .pho2-div{
+            margin:30px 20px ;
+            justify-content: center;
+            }
+
     aside{
         float:left;
         width:32%;
