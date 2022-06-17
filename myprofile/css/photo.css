@@ -32,6 +32,7 @@ body {
     clear:left;
     margin:1%;
     background:#800000;
+    color:white;
     } 
     main{
         float:left;
@@ -73,3 +74,13 @@ body {
         font-weight:bold;
         text-align:left;
     }
+.nav-fixed {
+        z-index: 10;          
+        position: fixed;      
+        top: 0px;
+        left: 0;
+        margin-top: 0;
+        min-width: 100%;
+        opacity: 0.94;
+        transition: opacity .5s ease-out;   
+      }
